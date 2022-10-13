@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div>
+        <ul>
+            <li style="float: left;margin-left: 300px; font-size: 30px;">TO THE NEW</li>
+            <div style="float:right;margin-right: 300px;font-size: 20px;">
+                <li>Quick Help</li>
+                <li>Home</li>
+            </div>
+        </ul>
+        <hr style="margin-left: 300px;margin-right: 300px;">
+    </div>
+    <diV class="formdiv1">
+        <div style="background-color: grey;height: 70px;margin-top: 0px;">
+            <h1 style="margin-left: 30px;">Bug Report</h1>
+        </div>
+        <form style="margin-left: 50px;margin-right:50px ;">
+            <!-- <h1>Bug Report</h1> -->
+            <hr>
+            <label>Title:*</label><br>
+            <input type="text" id="title" name="title" style="width: 80%;"><br><br>
+            <label>Description:*</label><br>
+            <textarea rows="4" cols="50" name="comment" form="usrform" style="width: 80%;">
+            Enter text here...</textarea><br><br>
+            <label>Operating Systems</label><br>
+
+            <select name="OS" id="OS" style="width: 80%;background-color: green;">
+                <option value="Windows XP">Windows XP</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select><br><br>
+            <label>Products</label><br>
+            <select name="pro" id="product" style="width: 80%;background-color: green;">
+                <option value="Formoid">Formoid</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select><br><br>
+            <label>Version:*</label><br>
+            <input type="text" id="version" name="version" style="width: 80px;"><br><br>
+
+            <!-- Radio buttons -->
+            <label>licences:*</label><br>
+            <div style="float: left;">
+                <input type="radio" id="licence1" value="HTML">
+                  <label for="free">Free</label><br>
+            </div>
+
+            <div style="float: right; margin-right: 200px;">
+                <input type="radio" id="licence2" value="HTML">
+                  <label for="business">business</label><br>
+            </div>
+            <br><br>
+            <label>severty:*</label><br>
+            <select name="pro" id="product" style="width: 80%;background-color: green;">
+                <option value="critcal">Critcal</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select><br><br>
+
+            <label for="myfile">Attachments:</label>
+            <input type="file" id="myfile" name="myfile">
+            <br>
+            <br>
+        </form>
+        <div style="background-color: grey;height: 35px;width: 100%;">
+            <input type="submit" style="float: right;margin-right: 150px;margin-top: 10px;font-size: medium;">
+        </div>
+    </diV>
+</body>
+
+</html>
