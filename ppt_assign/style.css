@@ -1,0 +1,102 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.totheNew {
+    width: 100%;
+    background-color: black;
+    text-align: left;
+   
+}
+
+#ttnHead {
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+.totheNewHeader {
+    background-color: black;
+    /* border: 5px solid white; */
+    /* margin: 30px; */
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 100px;
+    padding: 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 30px;
+    font-size: 10px;
+  }
+  .navList{
+    background-color:grey;
+   height: 30px;
+   padding-top: 5px;
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+  .body1{
+    background-color: white;
+    height: 900px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+  }
+  .body2{
+    background-color: black;
+    width: 960px;
+    height: 360px;
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+  .textbody1{
+    margin-left: 100px;
+    margin-right: 140px;
+    text-align: justify;
+    background-color:grey;
+    
+  }
+  .galaryHeadText{
+    margin-left: 100px;
+    font-size: 10px;
+    
+  }
+.flax-container{
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+    text-align: center;
+   padding: 40px;
+   
+}
+.footer1{
+    text-align: left;
+    display: inline;
+    color: red;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+.footer2{
+    text-align: right;
+     margin-left: 900px;
+    display: inline;
+    color: red;
+
+    
+}
+.divFooter{
+    background-color: black;
+    height: 80px;
+   
+}
